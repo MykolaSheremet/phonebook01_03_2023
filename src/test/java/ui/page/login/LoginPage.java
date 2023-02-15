@@ -1,0 +1,34 @@
+package ui.page.login;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class LoginPage {
+
+    WebDriver driver;
+
+    public LoginPage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
+
+    @FindBy(xpath = "//input[@name='email']")
+    private WebElement emailInput;
+
+    @FindBy(xpath = "//input[@name='password']")
+    private WebElement passwordInput;
+
+    @FindBy(xpath = "//button[@class='btn btn-info my-1 btn-block']")
+    private WebElement loginButton;
+
+
+    public void getLogin(String email, String password) {
+        emailInput.clear();
+        emailInput.sendKeys(email);
+        passwordInput.clear();
+        passwordInput.sendKeys(password);
+        loginButton.click();
+    }
+}
