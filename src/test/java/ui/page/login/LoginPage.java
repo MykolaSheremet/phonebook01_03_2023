@@ -23,6 +23,9 @@ public class LoginPage {
     @FindBy(xpath = "//button[@class='btn btn-info my-1 btn-block']")
     private WebElement loginButton;
 
+    @FindBy(xpath = "//div[@id=\"error-message\"]")
+    private WebElement errorLoginPasswordMessage;
+
 
     public void getLogin(String email, String password) {
         emailInput.clear();
@@ -30,5 +33,9 @@ public class LoginPage {
         passwordInput.clear();
         passwordInput.sendKeys(password);
         loginButton.click();
+    }
+
+    public String getErrorLoginPasswordMessage() {
+        return errorLoginPasswordMessage.getText();
     }
 }
