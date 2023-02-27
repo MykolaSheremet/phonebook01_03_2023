@@ -30,6 +30,7 @@ public class AddNewContactTest extends TestBase {
 
     @Test
     public void addNewContactTest() {
+        logger.info("Test data:\nfirst name - " + firstName + "\nlast name - " + lastName + "\nabout" + about);
         menu = new MenuEl(driver);
         menu.clickAddNewContactButton();
         addContactWindow = new AddContactWindow(driver);

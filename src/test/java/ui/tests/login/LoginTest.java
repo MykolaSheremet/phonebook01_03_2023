@@ -19,7 +19,8 @@ public class LoginTest extends TestBase {
     String errorLoginPasswordMessage = "Please check your activation or Login + Password combination";
 
     @Test
-    public void LoginTest() {
+    public void loginTest() {
+        logger.info("Test data:\nlogin - " + email + "\npassword - " + password);
         loginPage = new LoginPage(driver);
         loginPage.getLogin(email, password);
         menu = new MenuEl(driver);
@@ -29,6 +30,7 @@ public class LoginTest extends TestBase {
 
     @Test
     public void loginWithWrongLoginAndPassword() {
+        logger.info("Test data:\nlogin - " + wrongEmail + "\npassword - " + wrongPassword);
         loginPage = new LoginPage(driver);
         loginPage.getLogin(wrongEmail, wrongPassword);
 
