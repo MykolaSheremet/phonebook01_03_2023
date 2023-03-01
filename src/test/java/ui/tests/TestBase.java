@@ -43,6 +43,7 @@ public class TestBase {
         } else {
             logger.info("FAILED " + result.getMethod().getMethodName());
             logger.info(result.getThrowable().toString());
+
         }
         logger.info("====================================================================================");
     }
