@@ -7,6 +7,7 @@ import ui.page.MenuEl;
 import ui.page.contact.AddContactWindow;
 import ui.page.contact.ContactPage;
 import ui.page.login.LoginPage;
+import ui.tests.contact.AddNewContactTest;
 import util.DataProviders;
 
 import java.util.Map;
@@ -15,6 +16,7 @@ public class ParametrizedTest extends TestBase {
     LoginPage loginPage;
     MenuEl menuEl;
     ContactPage contactPage;
+    AddContactWindow addContactWindow;
 
     @BeforeMethod
     public void precondition() {

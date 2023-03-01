@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="864280c1-2663-4373-bf2e-112fe117e069" name="Changes" comment="data provider">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/tests/ParametrizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/tests/ParametrizedTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LmuUn2I6T5pGQwiBexqrr5wJut" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Startklar/javabasic27/phonebookQA44/src/test/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Startklar\javabasic27\phonebookQA44\src\test\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Startklar\javabasic27\phonebookQA44\src\test" />
+      <recent name="C:\Users\Startklar\javabasic27\phonebookQA44\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.LoginTest.loginTest">
+    <configuration name="AddNewContactTest.addNewContactTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="phonebookQA44" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.tests.contact.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui.tests.contact" />
+      <option name="MAIN_CLASS_NAME" value="ui.tests.contact.AddNewContactTest" />
+      <option name="METHOD_NAME" value="addNewContactTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="phonebookQA44" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.tests.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui.tests.login" />
+      <option name="MAIN_CLASS_NAME" value="ui.tests.login.LoginTest" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginWithWrongLoginAndPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="phonebookQA44" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.tests.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui.tests.login" />
+      <option name="MAIN_CLASS_NAME" value="ui.tests.login.LoginTest" />
+      <option name="METHOD_NAME" value="loginWithWrongLoginAndPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AddNewContactTest.addNewContactTest" />
+        <item itemvalue="TestNG.LoginTest.loginTest" />
+        <item itemvalue="TestNG.LoginTest.loginWithWrongLoginAndPassword" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="864280c1-2663-4373-bf2e-112fe117e069" name="Changes" comment="" />
+      <created>1676488606718</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676488606718</updated>
+    </task>
+    <task id="LOCAL-00001" summary="15.02.2023 LoginTest / TestBase">
+      <created>1676494947970</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676494947970</updated>
+    </task>
+    <task id="LOCAL-00002" summary="15.02.2023 LoginTest / TestBase">
+      <created>1676495038743</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676495038743</updated>
+    </task>
+    <task id="LOCAL-00003" summary="22.02.2023 HashMap&lt;&gt;">
+      <created>1677099504361</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677099504361</updated>
+    </task>
+    <task id="LOCAL-00004" summary="27.02.2023 Logger Start">
+      <created>1677530691221</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677530691221</updated>
+    </task>
+    <task id="LOCAL-00005" summary="data provider">
+      <created>1677701602699</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677701602699</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="15.02.2023 LoginTest / TestBase" />
+    <MESSAGE value="22.02.2023 HashMap&lt;&gt;" />
+    <MESSAGE value="27.02.2023 Logger Start" />
+    <MESSAGE value="data provider" />
+    <option name="LAST_COMMIT_MESSAGE" value="data provider" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ui/page/contact/AddContactWindow.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
