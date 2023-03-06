@@ -14,7 +14,7 @@ import java.util.Map;
 
 public class ParametrizedTest extends TestBase {
     LoginPage loginPage;
-    MenuEl menuEl;
+    MenuEl menu;
     ContactPage contactPage;
     AddContactWindow addContactWindow;
 
@@ -48,4 +48,5 @@ public class ParametrizedTest extends TestBase {
         Assert.assertEquals(info.get("first name"), firstName);
         Assert.assertEquals(info.get("last name"), lastName);
         Assert.assertEquals(info.get("contact description"), about);
+    }
 }
