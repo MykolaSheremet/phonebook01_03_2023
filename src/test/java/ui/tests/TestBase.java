@@ -23,7 +23,7 @@ public class TestBase {
     protected final String PASSWORD = "test@gmail.com";
     String screenName = "screen" + System.currentTimeMillis() + ".png";
 
-    protected Logger logger = LoggerFactory.getLogger(TestBase.class);
+    public Logger logger = LoggerFactory.getLogger(TestBase.class);
     @BeforeMethod
     public void setUp(Method m) {
         logger.info("Start test");

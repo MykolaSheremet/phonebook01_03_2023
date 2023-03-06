@@ -20,7 +20,7 @@ public class LoginTest extends TestBase {
 
     @Test
     public void loginTest() {
-        logger.info("Test data:\nlogin - " + email + "\npassword - " + password);
+//        logger.info("Test data:\nlogin - " + email + "\npassword - " + password);
         loginPage = new LoginPage(driver);
         loginPage.getLogin(email, password);
         menu = new MenuEl(driver);
